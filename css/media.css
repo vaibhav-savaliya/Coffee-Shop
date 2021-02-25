@@ -1,38 +1,14 @@
-@media (max-width:575px)	
-{
-	.discover h6 {
-	color:#e68541;
-	font-size:18px;
-	padding-top:50px;
-	padding-bottom:30px;
-	font-weight:700;
+
+@media (min-width:1200px){
+
 }
 
-.discover h3 {
-	color:#ffffff;
-	font-size:50px;
-	font-weight:700;
-	padding-bottom:50px;
-}
+@media only screen and (max-width: 1024px) {
 
 }
 
 
-@media (min-width:576px) and (max-width:767px)	
-{
-
-}
-
-
-@media (min-width:768px) and (max-width:991px)	
-{
-
-
-}
-
-
-@media (min-width:992px) and (max-width:1199px)	
-{
+@media (min-width:992px) and (max-width:1199px)	{
 	
 .coffee-contant h2 {
 	color:#2f2721;
@@ -45,6 +21,78 @@
 
 }
 
+@media only screen and (max-width: 768px) 	{
+.coffee-contant {
+	padding-left: 0;
+}
 
-@media (min-width:1200px)
-{
+.integer-content {
+	padding-right: 0;
+	padding-bottom: 20px;
+}
+
+.integer,.coffee-cup {
+	padding: 50px 0;
+}
+
+.company-content p {
+	padding: 0 0px;
+}
+
+.company-bg {
+	padding: 50px 0;
+}
+
+.company-content h2 {
+	font-size: 40px;
+}
+
+.menu-bg {
+	padding-bottom: 40px;
+}
+
+.events-bg {
+	padding: 40px 0;
+}
+
+}
+
+@media (max-width:575px)	{
+	.discover h6 {
+	color:#e68541;
+	font-size:18px;
+	padding-top:50px;
+	padding-bottom:30px;
+	font-weight:700;
+}
+
+.company-content h2::after {
+	top: 175px;
+}
+
+.coffee-contant {
+	padding-left: 0;
+}
+
+.discover h3 {
+	color:#ffffff;
+	font-size:48px;
+	font-weight:700;	
+	padding-bottom:50px;
+}
+
+.integer,.coffee-cup {
+	padding: 50px 0;
+}
+
+.beans-bg {
+	padding: 30px;
+}
+
+.discover h1 {
+	padding: 30px 0;
+	font-size: 55px;
+}
+
+}
+
