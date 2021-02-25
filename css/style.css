@@ -541,7 +541,8 @@ table tr:hover .t2 {
 
 
 .events-bg {
-	padding-top:120px;
+	padding-top:100px;
+	padding-bottom: 100px;
 }
 
 .events-img {
@@ -593,9 +594,51 @@ table tr:hover .t2 {
 }
 
 .events-content {
-	padding:20px 20px 0;
+	padding:20px 20px;
+	background-color: #2f2721;
+}
+
+.events-content h3,.events-content p {
+	color: #fff;
+}
+
+.events-content a {
+    padding: 11px 45px 11px 20px;
+    position: relative;
+    background-color: #e68541;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 15px 0;
 }
 
 
+.events-content a span {
+    padding: 11px 15px;
+    background-color: rgba(0, 0, 0, .05);
+    position: absolute;
+    right: 0px;
+    height: 100%;
+    top: 0;
+    font-size: 10px;
+    line-height: 20px;
+    color: black;
+}
 
+.contact-us-bg {
+	padding: 100px 0;
+}
 
+.contact-us-bg h2 {
+	color: #2f2721;
+}
+
+.contact-info .phone-number span i {
+	font-size: 22px;
+	color: #e68541;
+}
+
+.contact-info .phone-number span a {
+	color: #2f2721;
+}
